@@ -6,13 +6,13 @@ This plugin enables facebook-chat in Docusaurus powered websites.
 1. Add the plugin to your project.
 
 ```
-yarn add docusaurus-plugin-facebookchat
+yarn add @skgandikota/docusaurus-plugin-facebookchat
 ```
 
 or
 
 ```
-npm install docusaurus-plugin-facebookchat --save
+npm install @skgandikota/docusaurus-plugin-facebookchat --save
 ```
 
 2. Configure the plugin in `docusaurus.config.js`

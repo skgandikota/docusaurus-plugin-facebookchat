@@ -26,18 +26,13 @@ module.exports = function(context) {
 
     injectHtmlTags() {
       return {
-        headTags: [
+        postBodyTags: [
           {
             tagName: "script",
             innerHTML: `
             var chatbox = document.getElementById('fb-customer-chat');
-            chatbox.setAttribute("page_id", '${page_id}');
+            chatbox.setAttribute("page_id", '100264255877775');
             chatbox.setAttribute("attribution", "biz_inbox");
-            `
-          },
-          {
-            tagName: "script",
-            innerHTML: `
             window.fbAsyncInit = function() {
               FB.init({
                 xfbml            : true,
@@ -51,8 +46,7 @@ module.exports = function(context) {
               js = d.createElement(s); js.id = id;
               js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
               fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-            `
+            }(document, 'script', 'facebook-jssdk'));          `
           },
         ],
         preBodyTags:[
