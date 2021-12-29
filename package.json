@@ -1,6 +1,6 @@
 {
   "name": "@skgandikota/docusaurus-plugin-facebookchat",
-  "version": "1.0.3-005",
+  "version": "0.0.draft-001",
   "description": "This plugin enables facebook-chat in Docusaurus powered websites.",
   "main": "src/index.js",
   "private": false,
