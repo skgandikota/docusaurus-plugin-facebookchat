@@ -1,0 +1,36 @@
+{
+  "name": "@skgandikota/docusaurus-plugin-facebookchat",
+  "version": "1.0.3-005",
+  "description": "This plugin enables facebook-chat in Docusaurus powered websites.",
+  "main": "src/index.js",
+  "private": false,
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.14"
+  },
+  "devDependencies": {
+    "@docusaurus/types": "2.0.0-beta.14"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=10.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skgandikota/docusaurus-plugin-facebookchat.git"
+  },
+  "keywords": [
+    "docusaurus",
+    "facebookchat",
+    "docusaurus-plugin"
+  ],
+  "author": "skgandikota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skgandikota/docusaurus-plugin-facebookchat/issues"
+  },
+  "homepage": "https://github.com/skgandikota/docusaurus-plugin-facebookchat#readme"
+}
